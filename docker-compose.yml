@@ -1,0 +1,24 @@
+version: '3.3'
+
+services:
+  webapi:
+    image: satem021/memberapi:latest
+    container_name: "webapi"
+    ports:
+     - "50000:80"
+  webui:
+    image: satem021/memberui:latest
+    container_name: "webui"
+    ports:
+     - "50001:80"
+  mongodb:
+    image: satem021/mymongo:latest
+    container_name: "mongodb"
+    ports:
+     - "27017:27017"
+    volumes:
+      - mongodb:/data/db
+      - mongodb_config:/data/configdb
+volumes:
+  mongodb:
+  mongodb_config:

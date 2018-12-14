@@ -1,0 +1,9 @@
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/obj/Debug/netstandard2.0/MemberRegister.Core.csprojAssemblyReference.cache
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/obj/Debug/netstandard2.0/MemberRegister.Core.csproj.CoreCompileInputs.cache
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/obj/Debug/netstandard2.0/MemberRegister.Core.AssemblyInfoInputs.cache
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/obj/Debug/netstandard2.0/MemberRegister.Core.AssemblyInfo.cs
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/obj/Debug/netstandard2.0/MemberRegister.Core.dll
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/obj/Debug/netstandard2.0/MemberRegister.Core.pdb
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/bin/Debug/netstandard2.0/MemberRegister.Core.deps.json
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/bin/Debug/netstandard2.0/MemberRegister.Core.dll
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.Core/bin/Debug/netstandard2.0/MemberRegister.Core.pdb

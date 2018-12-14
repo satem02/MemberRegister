@@ -1,0 +1,45 @@
+@model MemberRegister.WebUI.Models.MemberAddViewModel
+
+<div class="container">
+
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+        @using (Html.BeginForm())
+        {
+			<h2>Please Sign Up <small>It's free and always will be.</small> </h2>
+			<hr class="colorgraph">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <label for="firstName">Name</label>
+                    @Html.TextBoxFor(m => m.MemberInfo.Name, new { @class = "form-control input-lg" })
+                    @Html.ValidationMessageFor(m => m.MemberInfo.Name, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <label for="lastName">Surname</label>
+                    @Html.TextBoxFor(m => m.MemberInfo.LastName, new { @class = "form-control input-lg" })
+                    @Html.ValidationMessageFor(m => m.MemberInfo.LastName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+			<div class="form-group">
+				<label for="displayName">DisplayName</label>
+                @Html.TextBoxFor(m => m.MemberInfo.DisplayName, new { @class = "form-control input-lg" })
+                @Html.ValidationMessageFor(m => m.MemberInfo.DisplayName, "", new { @class = "text-danger" })
+			</div>
+			<div class="form-group">
+				<label for="email">EMail</label>
+                @Html.TextBoxFor(m => m.MemberInfo.Email, new { @class = "form-control input-lg" })
+                @Html.ValidationMessageFor(m => m.MemberInfo.Email, "", new { @class = "text-danger" })
+			</div>
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+                    @Html.HiddenFor(x=>x.MemberInfo.Id)
+                    <input type="submit" value="Update" class="btn btn-primary btn-block btn-lg" tabindex="7">
+                </div>
+			</div>
+        }
+	</div>
+</div>
+</div>

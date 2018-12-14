@@ -1,0 +1,30 @@
+@model MemberRegister.WebUI.Models.MemberListViewModel
+
+<h2>Member List</h2>
+
+<a class="btn btn-xs btn-success" asp-controller="Member" asp-action="Add">Add a new Member</a>
+<div>
+    <table class="table table-responsive">
+        <tr>
+            <td>Member Name</td>
+            <td>Member Surname</td>
+            <td>Phone Number</td>
+            <td>Member Email</td>
+            <td>Member Display Name</td>
+            <td></td>
+            <td></td>
+        </tr>
+        @foreach (var member in Model.Members)
+        {
+            <tr>
+                <td>@member.Name</td>
+                <td>@member.LastName</td>
+                <td>@member.PhoneNumber</td>
+                <td>@member.Email</td>
+                <td>@member.DisplayName</td>
+                <td><a class="btn btn-xs btn-info" asp-controller="Member" asp-action="Update" asp-route-memberId="@member.Id">Update</a></td>
+                <td><a class="btn btn-xs btn-danger" asp-controller="Member" asp-action="Delete" asp-route-memberId="@member.Id">Delete</a></td>
+            </tr>
+        }
+    </table>
+</div>

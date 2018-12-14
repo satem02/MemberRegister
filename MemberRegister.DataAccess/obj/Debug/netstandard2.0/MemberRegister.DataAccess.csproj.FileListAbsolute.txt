@@ -1,0 +1,14 @@
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/bin/Debug/netstandard2.0/MemberRegister.DataAccess.deps.json
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/bin/Debug/netstandard2.0/MemberRegister.DataAccess.dll
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/bin/Debug/netstandard2.0/MemberRegister.DataAccess.pdb
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/bin/Debug/netstandard2.0/MemberRegister.Core.dll
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/bin/Debug/netstandard2.0/MemberRegister.Entities.dll
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/bin/Debug/netstandard2.0/MemberRegister.Core.pdb
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/bin/Debug/netstandard2.0/MemberRegister.Entities.pdb
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/obj/Debug/netstandard2.0/MemberRegister.DataAccess.csprojAssemblyReference.cache
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/obj/Debug/netstandard2.0/MemberRegister.DataAccess.csproj.CoreCompileInputs.cache
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/obj/Debug/netstandard2.0/MemberRegister.DataAccess.AssemblyInfoInputs.cache
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/obj/Debug/netstandard2.0/MemberRegister.DataAccess.AssemblyInfo.cs
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/obj/Debug/netstandard2.0/MemberRegister.DataAccess.csproj.CopyComplete
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/obj/Debug/netstandard2.0/MemberRegister.DataAccess.dll
+/Users/temel/Documents/Projects/Github/MemberRegister/MemberRegister.DataAccess/obj/Debug/netstandard2.0/MemberRegister.DataAccess.pdb
