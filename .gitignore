@@ -1,4 +1,5 @@
-*.assets.cache
+/.asset-cache
+/.asset.cache
 *.swp
 *.*~
 project.lock.json
