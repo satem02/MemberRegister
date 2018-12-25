@@ -12,10 +12,8 @@ namespace MemberRegister.Core.DataAccess.MongoDB {
     public class mdRepositoryBase<TEntity> : IEntityRepository<TEntity>
         where TEntity : class, EntityBase, new () {
             IMongoCollection<TEntity> _collection;
-            string _tableName = typeof (TEntity).Name;
-
             public mdRepositoryBase (MongoContext context) {
-                _collection = context.SessionFactory.GetCollection<TEntity> (_tableName);
+                _collection = context.SessionFactory.GetCollection<TEntity> (typeof (TEntity).Name);
             }
             public void Add (TEntity entity) {
                 if (string.IsNullOrEmpty (entity.Id))
