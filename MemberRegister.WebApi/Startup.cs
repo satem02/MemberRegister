@@ -48,6 +48,7 @@ namespace MemberRegister.WebApi {
         }
 
         private void AddCustomerServices (IServiceCollection services) {
+            
             services.AddScoped<IMemberService, MemberManager> ();
             services.AddScoped<IMemberDal, mdMemberDal> ();
 
