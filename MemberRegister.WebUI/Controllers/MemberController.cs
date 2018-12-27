@@ -18,7 +18,7 @@ namespace MemberRegister.Controllers {
 
         [HttpGet]
         public IActionResult Welcome () {
-            ViewData["Message"] = "Your welcome message";
+            ViewData["Message"] = "Lastet Your welcome message";
 
             return View ();
         }
